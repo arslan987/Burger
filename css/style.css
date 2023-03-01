@@ -1,0 +1,1007 @@
+/* HEADER SECTION START */
+.bgcolor
+{
+    background-image: url(../images/background.png);
+    width: 100%;
+    height: auto;
+} 
+.fixed-top {
+    background-color: rgb(251, 197, 36) !important;
+
+}
+.logoimg
+{
+    width: 200px;
+    height: 70px;
+}
+ul li a
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.img img
+{
+    width: 100%;
+    
+    animation: c 5s linear infinite;
+    z-index: 12;
+}
+@keyframes c {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(30px);
+    }
+
+}
+
+.space
+{
+   border: 2px dashed rgb(86, 28, 11);
+    padding: 8px;
+    width: 410px;
+    height: 50px;
+    font-size: 16px;
+    color: rgb(86, 28, 11)\;
+}
+.text h1
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 6rem;
+    font-weight: 900;
+    color: rgb(86, 28, 11);
+    text-shadow: 2px 2px 4px white;
+}
+.text h3
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgb(86, 28, 11);
+    text-shadow: 2px 2px 4px white;
+}
+
+@media screen and (min-width:300px) and  (max-width:600px){
+.logoimg
+{
+    width: 100px;
+    height: 40px;
+}
+}
+
+@media screen and (min-width:760px) and (max-width:1000px){
+.space
+{
+   border: 1px dashed rgb(86, 28, 11);
+    padding: 6px;
+    width: 270px;
+    height: 30px;
+    font-size: 10px;
+    color: rgb(86, 28, 11)\;
+}
+.text h1
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgb(86, 28, 11);
+    text-shadow: 2px 2px 4px white;
+}
+.text h3
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgb(86, 28, 11);
+    text-shadow: 2px 2px 4px white;
+}
+}
+
+@media screen and (min-width:550px) and (max-width:767px){
+.space
+{
+    margin-left: 50px;
+    border: 2px dashed rgb(86, 28, 11);
+    padding: 8px;
+    width: 410px;
+    height: 50px;
+    font-size: 16px;
+    color: rgb(86, 28, 11)\;
+}
+.text h1
+{
+    margin-left: 50px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 6rem;
+    font-weight: 900;
+    color: rgb(86, 28, 11);
+    text-shadow: 2px 2px 4px white;
+}
+.text h3
+{
+    margin-left: 50px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgb(86, 28, 11);
+    text-shadow: 2px 2px 4px white;
+}
+}
+
+@media screen and (min-width:300px) and (max-width:550px){
+.space
+{
+    
+    border: 1px dashed rgb(86, 28, 11);
+    padding: 6px;
+    width: 270px;
+    height: 30px;
+    font-size: 10px;
+    color: rgb(86, 28, 11)\;
+}
+.text h1
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgb(86, 28, 11);
+    text-shadow: 2px 2px 4px white;
+}
+.text h3
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgb(86, 28, 11);
+    text-shadow: 2px 2px 4px white;
+}
+}
+/* HEADER SECTION END */
+
+
+/* Try Our Latest Burger Start */
+.div1 p
+{
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.div1 span
+{
+    position: absolute;
+    top: 20%;
+    left: 33%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+.img1
+{
+    position: relative;
+}
+.ps1
+{
+    position: absolute;
+    top: 12%;
+    left: 17%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.span1
+{
+    position: absolute;
+    top: 20%;
+    left: 24%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.img2
+{
+    position: relative;
+}
+.p1
+{
+    position: absolute;
+    top: 62%;
+    left: 17%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.span2
+{
+    position: absolute;
+    top: 70%;
+    left: 24%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+/* Latest Burger MEQIAQUERRY */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+.div1 p
+{
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.div1 span
+{
+    position: absolute;
+    top: 20%;
+    left: 36%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.ps1
+{
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.span1
+{
+    position: absolute;
+    top: 20%;
+    left: 24%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+
+.p1
+{
+    position: absolute;
+    top: 62%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.span2
+{
+    position: absolute;
+    top: 70%;
+    left: 24%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+    
+
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+.div1 p
+{
+    position: absolute;
+    top: 10%;
+    left: 27%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.div1 span
+{
+    position: absolute;
+    top: 20%;
+    left: 39%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.ps1
+{
+    position: absolute;
+    top: 12%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.span1
+{
+    position: absolute;
+    top: 20%;
+    left: 31%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+
+.p1
+{
+    position: absolute;
+    top: 62%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.span2
+{
+    position: absolute;
+    top: 70%;
+    left: 31%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+    
+
+}
+
+
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+
+.div1 p
+{
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.div1 span
+{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.ps1
+{
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.span1
+{
+    position: absolute;
+    top: 20%;
+    left: 24%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+
+.p1
+{
+    position: absolute;
+    top: 62%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.span2
+{
+    position: absolute;
+    top: 70%;
+    left: 24%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+}
+
+
+
+@media screen and (min-width: 420px) and (max-width: 500px) {
+
+.div1 p
+{
+    position: absolute;
+    top: 10%;
+    left: 24%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.div1 span
+{
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.ps1
+{
+    position: absolute;
+    top: 12%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.span1
+{
+    position: absolute;
+    top: 20%;
+    left: 26%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+
+.p1
+{
+    position: absolute;
+    top: 62%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.span2
+{
+    position: absolute;
+    top: 70%;
+    left: 26%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+}
+@media screen and (min-width: 400px) and (max-width: 419px) {
+
+.div1 p
+{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.div1 span
+{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.ps1
+{
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.span1
+{
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+
+.p1
+{
+    position: absolute;
+    top: 62%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.span2
+{
+    position: absolute;
+    top: 70%;
+    left: 27%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+}
+
+@media screen and (min-width: 330px) and (max-width: 400px) {
+
+.div1 p
+{
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.div1 span
+{
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.ps1
+{
+    position: absolute;
+    top: 12%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.span1
+{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+
+.p1
+{
+    position: absolute;
+    top: 62%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.span2
+{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 330px) {
+
+.div1 p
+{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.div1 span
+{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.ps1
+{
+    position: absolute;
+    top: 12%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.span1
+{
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+
+.p1
+{
+    position: absolute;
+    top: 62%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.span2
+{
+    position: absolute;
+    top: 70%;
+    left: 34%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+}
+/* Try Our Latest Burger End */
+
+
+
+/* ALWAYS TASTY BURGER START*/
+
+
+.btn-red
+{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    width: 140px;
+    height: 40px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+.heading-h1
+{
+    font-size: 30px;
+}
+}
+/* ALWAYS TASTY BURGER END*/
+
+
+
+/* EVENT SECTION START */
+.event-div{
+    margin-top: 100px;
+}
+.event-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 2px 1px 7px gray    ;
+}
+/* box1 content */
+.event-div1 i{
+    color: rgb(211, 198, 198);
+
+}
+.event-div1{
+    width: 500px;
+    padding: 15px;
+
+}
+
+.event-div1 .yellow{
+    color: yellow;
+
+}
+.event-p{
+    color: grey;
+    text-align: left;
+}
+.event-h4{
+    font-weight: lighter;
+    color: rgb(86, 28, 11);
+}
+.event-h3{
+    font-weight: bold;
+    color: rgb(86, 28, 11);
+    font-family: 'Roboto Slab', serif;
+
+}
+
+/* EVENT SECTION MEQIAQUERRY */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .event-div2 img {
+       width:444px ; 
+    }
+
+}
+
+@media screen and (min-width: 344px) and (max-width: 567px) {
+    .event-div1{
+        width: 350px;
+    }
+    .event-div2 img{
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 342px) {
+    .event-div1{
+        width: 300px;
+    }
+    .event-div2 img{
+        width: 300px;
+    }
+}
+/* EVENT SECTION END */
+
+
+
+
+
+
+/* TABLE SECTION START */
+.table-container{
+    background-image: url(../images/table-bg.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.table-headings{
+    text-align: center;
+}
+.table-headings .table-h6{
+    color: rgb(86, 28, 11);
+    font-size:1.5rem ;
+    margin-top: 40px;
+    padding-top: 35px;
+    font-weight: lighter;
+}
+.table-headings .table-h3{
+    color: rgb(86, 28, 11);
+    font-weight: bold;
+    color: rgb(86, 28, 11);
+    font-family: 'Roboto Slab', serif;
+
+}
+.table-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+}
+.table-content .table-btn{
+    background-color: red;
+    color: white;
+    border: none;
+}
+.table-content .table-btn:hover{
+     background-color: rgb(227, 73, 73);
+    transition: 0.3s;
+}
+.table-content input{
+    width: 400px;
+    padding: 13px;
+    font-weight:lighter ;
+    margin: 10px 10px;
+}
+.row1{
+    width: 400px;
+
+}
+.row2{
+    width: 400px;
+}
+/* TABLE mediaquerry  */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .table-container {
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 990px) {
+    .table-container{
+       /* margin-top: 1000px; */
+       background-size: contain;
+       background-repeat: no-repeat;
+       
+     }
+  
+}
+@media screen and (min-width: 560px) and (max-width: 767px) {
+    .table-container{
+       /* margin-top: 1000px; */
+       background-size: contain;
+       background-repeat: no-repeat;
+     }
+  
+}
+@media screen and (min-width: 300px) and (max-width: 472px) {
+    .table-container{
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    .table-content input{
+        width: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+/* TABLE SECTION END */
+
+
+
+
+/* FOOTER SECTION START*/
+
+.footer-bg
+{
+    background-image: url(../images/17.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+.logo-footer
+{
+    width: 200px;
+    height: 50px;
+}
+.logo-p
+{
+    color: white;
+}
+
+.logo-p span
+{
+    color: gray;
+}
+.icons-p
+{
+    color: white;
+
+}
+.icons-p a i
+{
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    color: black;
+}
+@media screen and (min-width: 300px) and (max-width: 450px) {
+.logo-footer
+{
+    width: 150px;
+    height: 30px;
+}
+.logo-p p
+{
+    font-size: 14px;
+}
+
+.logo-p span
+{
+    font-size: 14px;
+}
+.icons-p p
+{
+    font-size: 14px;
+}
+.icons-p a i
+{
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    color: black;
+}
+
+
+}
+/* FOOTER SECTION END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
